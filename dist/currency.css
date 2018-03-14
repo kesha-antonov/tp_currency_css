@@ -1,0 +1,726 @@
+@font-face {
+  font-family: 'Currency Font';
+  font-style: normal;
+  font-weight: normal;
+
+  font-display: swap;
+  src: url('//www.travelpayouts.com/currency_fonts/currency-regular-webfont.woff2') format('woff2'),
+       url('//www.travelpayouts.com/currency_fonts/currency-regular-webfont.woff') format('woff'),
+       url('//www.travelpayouts.com/currency_fonts/currency-regular-webfont.ttf') format('truetype')
+}
+.currency_font {
+  display: inline-block;
+  white-space: nowrap;
+  font-family: 'Currency Font', 'Open Sans', Helvetica, sans;
+  font-weight: 600;
+
+  direction: ltr/*rtl:ignore*/;
+    &--usd:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '$';
+    }
+    &--cad:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'C$';
+    }
+    &--eur:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '€';
+    }
+    &--amd:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'Դ';
+    }
+    &--ars:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '$';
+    }
+    &--aud:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'A$';
+    }
+    &--azn:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '₼';
+    }
+    &--bdt:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'BDT';
+    }
+    &--brl:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'R$';
+    }
+    &--chf:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'CHF';
+    }
+    &--clp:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'C$';
+    }
+    &--cny:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '¥';
+    }
+    &--cop:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'COL$';
+    }
+    &--egp:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'E£';
+    }
+    &--gbp:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '£';
+    }
+    &--hkd:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'HK$';
+    }
+    &--huf:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'Ft';
+    }
+    &--idr:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'Rp';
+    }
+    &--ils:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '‏₪';
+    }
+    &--inr:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '₹';
+    }
+    &--jpy:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '¥';
+    }
+    &--krw:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '₩';
+    }
+    &--lkr:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'Rp';
+    }
+    &--mur:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'Rs';
+    }
+    &--mxn:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '$';
+    }
+    &--myr:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'RM';
+    }
+    &--ngn:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '₦';
+    }
+    &--npr:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'रु';
+    }
+    &--nzd:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'NZ$';
+    }
+    &--pen:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'S/.';
+    }
+    &--php:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '₱';
+    }
+    &--pkr:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'Rs';
+    }
+    &--sgd:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'S$';
+    }
+    &--thb:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '฿';
+    }
+    &--try:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  '₺';
+    }
+    &--xof:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'FCFA';
+    }
+    &--zar:before {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content:  'R';
+    }
+    &--aed:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'د.إ';
+    }
+    &--afn:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '؋';
+    }
+    &--all:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'Lek';
+    }
+    &--bam:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'KM';
+    }
+    &--bgn:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'лв.';
+    }
+    &--bhd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '.د.ب';
+    }
+    &--bif:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'FBu';
+    }
+    &--bnd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '$';
+    }
+    &--bob:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'Bs';
+    }
+    &--bwp:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'P';
+    }
+    &--byr:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'BYR';
+    }
+    &--bzd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '$';
+    }
+    &--cdf:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'FrCD';
+    }
+    &--crc:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '₡';
+    }
+    &--cve:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'CV$';
+    }
+    &--czk:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'Kč';
+    }
+    &--djf:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'Fdj';
+    }
+    &--dkk:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'kr';
+    }
+    &--dop:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'RD$';
+    }
+    &--dzd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'د.ج.‏';
+    }
+    &--eek:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'kr';
+    }
+    &--ern:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'Nfk';
+    }
+    &--etb:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'Br';
+    }
+    &--gel:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '₾';
+    }
+    &--ghs:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'GH₵';
+    }
+    &--gnf:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'FG';
+    }
+    &--gtq:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'Q';
+    }
+    &--hnl:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'L';
+    }
+    &--hrk:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'kn';
+    }
+    &--iqd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'د.ع.‏';
+    }
+    &--irr:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '﷼';
+    }
+    &--isk:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'kr.';
+    }
+    &--jmd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '$';
+    }
+    &--jod:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'د.ا.‏';
+    }
+    &--kes:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'Ksh';
+    }
+    &--khr:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '៛';
+    }
+    &--kmf:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'FC';
+    }
+    &--kwd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'د.ك.‏';
+    }
+    &--kzt:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'T';
+    }
+    &--lbp:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'ل.ل.‏';
+    }
+    &--ltl:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'Lt';
+    }
+    &--lvl:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'Ls';
+    }
+    &--lyd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'د.ل.‏';
+    }
+    &--mad:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'د.م.‏';
+    }
+    &--mdl:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'MDL';
+    }
+    &--mga:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'MGA';
+    }
+    &--mkd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'MKD';
+    }
+    &--mmk:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'K';
+    }
+    &--mop:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'MOP$';
+    }
+    &--mzn:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'MTn';
+    }
+    &--nad:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'N$';
+    }
+    &--nio:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'C$';
+    }
+    &--nok:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'kr';
+    }
+    &--omr:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'ر.ع.‏';
+    }
+    &--pab:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'B/.';
+    }
+    &--pln:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'zł';
+    }
+    &--pyg:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '₲';
+    }
+    &--qar:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'ر.ق.‏';
+    }
+    &--ron:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'lei';
+    }
+    &--rsd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'din';
+    }
+    &--rub:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'R';
+    }
+    &--rwf:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'FR';
+    }
+    &--sar:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'ر.س.';
+    }
+    &--sdg:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'SDG';
+    }
+    &--sek:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'kr';
+    }
+    &--sos:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'Ssh';
+    }
+    &--syp:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'ل.س.‏';
+    }
+    &--tnd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'د.ت.‏';
+    }
+    &--top:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'T$';
+    }
+    &--ttd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '$';
+    }
+    &--twd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'NT$';
+    }
+    &--tzs:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'TSh';
+    }
+    &--uah:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'G';
+    }
+    &--ugx:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'USh';
+    }
+    &--uyu:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '$';
+    }
+    &--uzs:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'UZS';
+    }
+    &--vef:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'Bs.F.';
+    }
+    &--vnd:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  '₫';
+    }
+    &--xaf:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'FCFA';
+    }
+    &--yer:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'ر.ي.‏';
+    }
+    &--zmk:after {
+      display: inline-block;
+      /*rtl:ignore*/
+      margin-left: 0.2ex;
+      content:  'ZK';
+    }
+}

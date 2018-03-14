@@ -1,0 +1,31 @@
+{
+  "name": "currency-css",
+  "version": "1.0.0",
+  "description": "currency style css",
+  "author": "Pavel Kozelskii",
+  "main": "index.js",
+  "keywords": [
+      "format",
+      "currency",
+      "money"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KosyanMedia/tp_currency_css.git"
+  },
+  "style": "currency/currency.css",
+  "license": "MIT",
+  "scripts": {
+    "build": "node index.js && postcss currency/currency.css -o dist/currency.css",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "postcss-cli": "^5.0.0",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-sass-each": "^0.1.0",
+    "postcss-simple-vars": "^4.1.0"
+  }
+}
