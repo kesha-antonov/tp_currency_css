@@ -19,6 +19,12 @@
   font-weight: 600;
 
   direction: ltr/*rtl:ignore*/;
+  &--default:before {
+    display: inline-block;
+    /*rtl:ignore*/
+    margin-right: 0.2ex;
+    content: "$";
+  }
   @each currenc, sing, in $left_currency {
     &--#(currenc):before {
       display: inline-block;

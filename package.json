@@ -1,6 +1,6 @@
 {
   "name": "currency-css",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "currency style css",
   "author": "Pavel Kozelskii",
   "main": "index.js",
