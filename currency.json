@@ -189,13 +189,13 @@
       "name_plural": "Botswanan pulas",
       "direction": "right"
    },
-   "BYR": {
-      "symbol": "BYR",
+   "BYN": {
+      "symbol": "BYN",
       "name": "Belarusian Ruble",
-      "symbol_native": "BYR",
-      "decimal_digits": 0,
+      "symbol_native": "Br",
+     "decimal_digits": 0,
       "rounding": 0,
-      "code": "BYR",
+      "code": "BYN",
       "name_plural": "Belarusian rubles",
       "direction": "right"
    },
@@ -609,6 +609,16 @@
       "name_plural": "Kazakhstani tenges",
       "direction": "right"
    },
+   "KGS": {
+      "symbol": "KGS",
+      "name": "Kyrgyzstani Som",
+      "symbol_native": "com",
+      "decimal_digits": 2,
+      "rounding": 0,
+      "code": "KGS",
+      "name_plural": "Kyrgyzstani Som",
+      "direction": "right"
+   },
    "LBP": {
       "symbol": "LB£",
       "name": "Lebanese Pound",
@@ -697,6 +707,16 @@
       "rounding": 0,
       "code": "MKD",
       "name_plural": "Macedonian denari",
+      "direction": "right"
+   },
+   "TJS": {
+      "symbol": "TJS",
+      "name": "Tajikistani Somoni",
+      "symbol_native": "TJS",
+      "decimal_digits": 0,
+      "rounding": 0,
+      "code": "TJS",
+      "name_plural": "Tajikistani Somoni",
       "direction": "right"
    },
    "MMK": {
