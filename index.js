@@ -23,3 +23,5 @@ const makeCss = (name, data) => {
 
 makeCss('left', currency)
 makeCss('right', currency)
+
+module.exports = currency

@@ -20,14 +20,12 @@
 
   direction: ltr/*rtl:ignore*/;
   &--default:before {
-    display: inline-block;
     /*rtl:ignore*/
     margin-right: 0.2ex;
     content: "$";
   }
   @each currenc, sing, in $left_currency {
     &--#(currenc):before {
-      display: inline-block;
       /*rtl:ignore*/
       margin-right: 0.2ex;
       content: #(sing);
@@ -35,7 +33,6 @@
   }
   @each currenc, sing, in $right_currency {
     &--#(currenc):after {
-      display: inline-block;
       /*rtl:ignore*/
       margin-left: 0.2ex;
       content: #(sing);
