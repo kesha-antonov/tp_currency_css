@@ -602,7 +602,7 @@
    "KZT": {
       "symbol": "KZT",
       "name": "Kazakhstani Tenge",
-      "symbol_native": "T",
+      "symbol_native": "₸",
       "decimal_digits": 2,
       "rounding": 0,
       "code": "KZT",
@@ -932,7 +932,7 @@
    "RUB": {
       "symbol": "RUB",
       "name": "Russian Ruble",
-      "symbol_native": "R",
+      "symbol_native": "₽",
       "decimal_digits": 2,
       "rounding": 0,
       "code": "RUB",
@@ -1082,7 +1082,7 @@
    "UAH": {
       "symbol": "₴",
       "name": "Ukrainian Hryvnia",
-      "symbol_native": "G",
+      "symbol_native": "₴",
       "decimal_digits": 2,
       "rounding": 0,
       "code": "UAH",

@@ -398,7 +398,7 @@
     &--kzt:after {
       /*rtl:ignore*/
       margin-left: 0.2ex;
-      content:  'T';
+      content:  '₸';
     }
     &--kgs:after {
       /*rtl:ignore*/
@@ -409,11 +409,6 @@
       /*rtl:ignore*/
       margin-left: 0.2ex;
       content:  'ل.ل.‏';
-    }
-    &--ltl:after {
-      /*rtl:ignore*/
-      margin-left: 0.2ex;
-      content:  'Lt';
     }
     &--lvl:after {
       /*rtl:ignore*/
@@ -518,7 +513,7 @@
     &--rub:after {
       /*rtl:ignore*/
       margin-left: 0.2ex;
-      content:  'R';
+      content:  '₽';
     }
     &--rwf:after {
       /*rtl:ignore*/
@@ -578,7 +573,7 @@
     &--uah:after {
       /*rtl:ignore*/
       margin-left: 0.2ex;
-      content:  'G';
+      content:  '₴';
     }
     &--ugx:after {
       /*rtl:ignore*/
