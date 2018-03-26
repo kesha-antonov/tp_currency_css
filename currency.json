@@ -639,16 +639,6 @@
       "name_plural": "Sri Lankan rupees",
       "direction": "left"
    },
-   "LTL": {
-      "symbol": "Lt",
-      "name": "Lithuanian Litas",
-      "symbol_native": "Lt",
-      "decimal_digits": 2,
-      "rounding": 0,
-      "code": "LTL",
-      "name_plural": "Lithuanian litai",
-      "direction": "right"
-   },
    "LVL": {
       "symbol": "Ls",
       "name": "Latvian Lats",
