@@ -7,9 +7,9 @@
   font-weight: normal;
 
   font-display: swap;
-  src: url('//www.travelpayouts.com/widgets_fonts/currency-regular-webfont.woff2') format('woff2'),
-  url('//www.travelpayouts.com/widgets_fonts/currency-regular-webfont.woff') format('woff'),
-  url('//www.travelpayouts.com/widgets_fonts/currency-regular-webfont.ttf') format('truetype')
+  src: url('//www.travelpayouts.com/currency_fonts/currency-regular-webfont.woff2') format('woff2'),
+  url('//www.travelpayouts.com/currency_fonts/currency-regular-webfont.woff') format('woff'),
+  url('//www.travelpayouts.com/currency_fonts/currency-regular-webfont.ttf') format('truetype')
 }
 
 .currency_font {
