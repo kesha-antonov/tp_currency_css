@@ -1,0 +1,36 @@
+@import "./left";
+@import "./right";
+
+.currency_font {
+  display: inline-block;
+  white-space: nowrap;
+  font-family: 'Currency Font', 'Open Sans', Helvetica, sans;
+  font-weight: 600;
+
+  direction: ltr/*rtl:ignore*/;
+
+  &--default:before {
+    /*rtl:ignore*/
+    margin-right: 0.2ex;
+    content: "$";
+  }
+
+  @each $currency, $sign in $left_currency {
+    &--#{$currency}:before {
+      /*rtl:ignore*/
+      margin-right: 0.2ex;
+      content: $sign;
+    }
+  }
+
+  @each $currency, $sign in $right_currency {
+    &--#{$currency} {
+      &:after {
+        /*rtl:ignore*/
+        margin-left: 0.2ex;
+        content: $sign;
+      }
+    }
+  }
+
+}
